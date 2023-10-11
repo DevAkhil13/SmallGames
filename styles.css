@@ -1,0 +1,110 @@
+:root {
+  --gradient: linear-gradient(
+    45deg,
+    #845ec2,
+    #d65db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f,
+    #f9f871
+  );
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Courier New", monospace;
+  margin: 0px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+div.showcase {
+  padding: 2px;
+  background-image: var(--gradient);
+}
+div.mainbody {
+  margin-top: 4%;
+  text-align: -webkit-center;
+}
+div.mainheader {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+div.game-name {
+  font-size: 25px;
+  padding: 4px;
+  font-weight: 600;
+}
+div.content {
+  display: flex;
+}
+div.gameoption1,
+div.gameoption2 {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 11px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+ul.dropdown {
+  width: 115px;
+  margin: 10px -40px;
+  padding: 11px;
+  list-style: none;
+  position: absolute;
+  background-color: black;
+  border: 2px solid;
+  border-radius: 9px;
+  display: none;
+  transition: all 0.5s ease;
+}
+li.gamename {
+  padding-bottom: 20px;
+}
+div.alignflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+div.gamecard {
+  position: relative;
+  width: 357px;
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  margin: 10px;
+  height: 435px;
+  margin-bottom: 40px;
+}
+div.gameheading {
+  padding: 10px;
+  border-bottom: 2px solid white;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+  border-radius: 17px 17px 0px 0px;
+  background-image: var(--gradient);
+}
+div.gamematter {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: left;
+}
+div.playbutton {
+  padding: 12px;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  width: -webkit-fill-available;
+  margin: 15px;
+  position: absolute;
+  bottom: 0px;
+  font-weight: bolder;
+}

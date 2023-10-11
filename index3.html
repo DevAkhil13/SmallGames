@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Small game</title>
+    <link href="styles3.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="mainheader">
+      <div class="content">
+        <div class="game-name">Hangman game</div>
+      </div>
+      <div class="content">
+        <div class="game-option"><a href="index.html">menu</a></div>
+        <div class="game-option" id="new-game">new game</div>
+      </div>
+    </div>
+    <div class="showcase"></div>
+    <div class="mainbody">
+      
+      
+      <div class="container">
+        <div class="word" id="mainword"></div>
+        <div class="hangman board">
+          <div class="hangman">
+            <div class="rodlength pt" id="part2"></div>
+            <div class="downpart">
+              <div class="rodheight pt" id="part1"></div>
+              <div class="manbody">
+                <div class="ropeandhead">
+                  <div class="rope pt" id="part3"></div>
+                  <div class="manhead" id="faceexpression">&#128534</div>
+                </div>
+                <div class="bodyandhands">
+                  <div class="hand1 pt"  id="part5"></div>
+                  <div class="stem pt"  id="part4"></div>
+                  <div class="hand2 pt"  id="part6"></div>
+                </div>
+                <div class="legs">
+                  <div class="leg1 pt" id="part7"></div>
+                  <div class="leg2 pt" id="part8"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clues">clues:
+            <div class="clue1" id="clue1">1)</div>
+            <div class="clue2" id="clue2">2) want an another clue?</div>
+          </div>
+          <div class="alphabets">
+            <div class="row">
+              <div class="blk" id="A">A</div>
+              <div class="blk" id="B">B</div>
+              <div class="blk" id="C">C</div>
+              <div class="blk" id="D">D</div>
+              <div class="blk" id="E">E</div>
+              <div class="blk" id="F">F</div>
+              <div class="blk" id="G">G</div>
+              <div class="blk" id="H">H</div>
+              <div class="blk" id="I">I</div>
+            </div>
+            <div class="row">
+              <div class="blk" id="J">J</div>
+              <div class="blk" id="K">K</div>
+              <div class="blk" id="L">L</div>
+              <div class="blk" id="M">M</div>
+              <div class="blk" id="N">N</div>
+              <div class="blk" id="O">O</div>
+              <div class="blk" id="P">P</div>
+              <div class="blk" id="Q">Q</div>
+              <div class="blk" id="R">R</div>
+            </div>
+            <div class="row">
+              <div class="blk" id="S">S</div>
+              <div class="blk" id="T">T</div>
+              <div class="blk" id="U">U</div>
+              <div class="blk" id="V">V</div>
+              <div class="blk" id="W">W</div>
+              <div class="blk" id="X">X</div>
+              <div class="blk" id="Y">Y</div>
+              <div class="blk" id="Z" style="margin-right: 43px;">Z</div>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="finalstmt">
+          <div class="display-blk" id="win-stm"></div>
+          <div class="next" id="nxt">skip -></div>
+        </div>
+      </div>
+     
+    </div>
+    
+    <script src="script3.js"></script>
+  </body>
+</html>

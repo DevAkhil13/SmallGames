@@ -1,0 +1,210 @@
+:root {
+  --gradient: linear-gradient(
+    45deg,
+    #845ec2,
+    #d65db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f,
+    #f9f871
+  );
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Courier New", monospace;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  margin: 0px;
+}
+div.showcase {
+  padding: 2px;
+  background-image: var(--gradient);
+  margin-bottom: 20px;
+}
+
+div.mainheader {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+div.game-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+div.content {
+  padding: 13px 7px;
+  display: flex;
+}
+div.game-option {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0px 11px;
+}
+div.game-option:hover {
+  color: rgba(245, 64, 245);
+}
+
+div.hangman {
+  margin: 10px 0px;
+  background-color: white;
+  height: 193px;
+  padding: 8px 28%;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+div.downpart {
+  display: flex;
+}
+div.legs {
+  display: flex;
+  justify-content: space-between;
+}
+div.manbody {
+  display: flex;
+  flex-direction: column;
+}
+div.bodyandhands {
+  display: flex;
+}
+
+div.rodlength {
+  border: 2px dotted black;
+  height: 4px;
+  width: 120px;
+}
+div.rodheight {
+  height: 180px;
+  border: 2px dotted black;
+  width: 4px;
+  margin-right: 40px;
+}
+
+div.ropeandhead {
+  margin-left: 8px;
+}
+div.rope {
+  height: 11px;
+  border: 2px dotted black;
+  width: 4px;
+  margin: 0px 15px;
+}
+div.manhead {
+  font-size: 30px;
+}
+
+div.hand1 {
+  height: 50px;
+  border: 2px dotted black;
+  width: 4px;
+  margin-right: 17px;
+}
+div.stem {
+  height: 40px;
+  border: 2px dotted black;
+  width: 4px;
+}
+div.hand2 {
+  height: 50px;
+  border: 2px dotted black;
+  width: 4px;
+  margin-left: 17px;
+}
+
+div.leg1 {
+  height: 60px;
+  border: 2px dotted black;
+  width: 4px;
+  margin-left: 12px;
+}
+div.leg2 {
+  height: 60px;
+  border: 2px dotted black;
+  width: 4px;
+  margin-right: 12px;
+}
+
+div.container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div.word {
+  width: 300px;
+  font-size: 27px;
+  background-color: black;
+  padding: 6px 0px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 7px 0px;
+  text-align: center;
+}
+div.hangman.board {
+  background-image: var(--gradient);
+  background-repeat: no-repeat;
+  height: auto;
+  width: 300px;
+  padding: 10px;
+  padding-top: 4px;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 16px 0px rgba(241, 241, 241, 0.927);
+}
+div.row {
+  display: flex;
+  justify-content: space-between;
+  border: 2px;
+}
+div.clues {
+  font-size: 16px;
+  background-color: black;
+  padding: 8px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+div.clue2:hover {
+  color: rgba(245, 64, 245);
+}
+div.blk {
+  background-color: black;
+  height: 33px;
+  width: 40px;
+  margin: 1px;
+  font-weight: 900;
+  font-size: 18px;
+  border: 2 solid white;
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.634);
+}
+div.alphabets {
+  padding: 5px;
+}
+div.blk2 {
+  background-color: white;
+  height: 14px;
+  width: 14px;
+  margin: 2px;
+  border-radius: 4px;
+  color: white;
+  padding: 0;
+}
+div.finalstmt {
+  font-size: 19px;
+  width: 300px;
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+
+div.blk,
+div.game-option,
+div.next,
+div.clue2 {
+  cursor: pointer;
+}
